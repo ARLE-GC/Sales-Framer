@@ -1,5 +1,6 @@
 // src/App.jsx
 import React from 'react';
+import Promo from './components/Promo';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import ProblemSolution from './components/ProblemSolution';
@@ -13,6 +14,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="App">
+      <Promo/>
       <Header />
       <main>
         <Hero />

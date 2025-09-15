@@ -3,14 +3,14 @@ import React from 'react';
 
 const SolutionSteps = () => {
     return (
-         <section id="SolutionSteps" className='text-zinc-950 text-center px-[0] py-[60px] block m-0 p-0 box-border w-screen'>
+         <section id="SolutionSteps" className='text-zinc-950 text-center px-[0] py-[60px] block m-0 p-0 box-border w-screen animate__animated animate__fadeIn'>
             <div className='max-w-[1200px] mx-[auto] my-[0] px-[20px] py-[0] block'>
-                <h2 className='[rotate:none] translate-x-0 translate-y-0 opacity-100 text-[32px] mb-[20px] uppercase text-center leading-[1.2] text-yellow-950 block font-bold'>Cultivez votre réseau sans effort, <br />récoltez des opportunités sans stress</h2> 
+                <h2 className='[rotate:none]  opacity-100 text-[32px] mb-[20px] uppercase text-center leading-[1.2] text-yellow-950 block font-bold'>Cultivez votre réseau sans effort, <br />récoltez des opportunités sans stress</h2> 
                   <p className='mb-[15px] block'>Avec Sales Farmer, pas de gadgets inutiles, juste l’essentiel pour transformer vos efforts en ventes.</p>           
                 <div className='mt-[50px] block'>
                     
-                    <div className='[rotate:none] translate-x-0 translate-y-0 opacity-100 flex-col flex gap-[50px] items-center mb-[80px]'>
-                        <div className='flex-[1] block'>
+                    <div className='[rotate:none] opacity-100  flex gap-[50px] items-center mb-[80px] flex-col lg:flex-row lg:items-center space-y8 p-2'>
+                        <div className='flex-[1] '>
                             <span className='inline-block px-[12px] py-[4px] rounded-[8px] font-bold uppercase mb-[15px] bg-yellow-500 text-yellow-950 border-yellow-950 border-[2px] border-[solid]'>ÉTAPE 1</span>
                             <h3 className='text-[32px] text-left mb-[25px] uppercase leading-[1.2] text-yellow-950 font-bold'>Initialisez votre récolte</h3>
                             <div className='flex items-start gap-[15px] text-left mt-[20px]'>
@@ -33,13 +33,13 @@ const SolutionSteps = () => {
                         </div>
                     </div>
                     
-                    <div className='[rotate:none] translate-x-0 translate-y-0 opacity-100 flex-col flex gap-[50px] items-center mb-[80px]'>
-                        <div className='flex-[1] block'>
+                    <div className='[rotate:none]  opacity-100  flex gap-[50px] items-center mb-[80px] flex-col lg:flex-row lg:items-center space-y8 p-2'>
+                        <div className='flex-[1] order-2'>
                             <span className='inline-block px-[12px] py-[4px] rounded-[8px] font-bold uppercase mb-[15px] bg-yellow-500 text-yellow-950 border-yellow-950 border-[2px] border-[solid]'>Étape 2</span>
                             <h3 className='text-[32px] text-left mb-[25px] uppercase leading-[1.2] text-yellow-950 font-bold'>Préparez vos champs</h3>
                             <div className='flex items-start gap-[15px] text-left mt-[20px]'>
                                 <img src="./images/image11.avif" alt="Icône recherche" className='w-[50px] h-[50px] object-contain flex-shrink-0'/>
-                                <div className='block'>
+                                <div >
                                     <strong className='text-yellow-900 font-[bolder]'>Effectuez une recherche LinkedIn ou Sales Navigator</strong>
                                     <p className='text-yellow-950 mb-0 block'>Utilisez les filtres à votre disposition selon votre persona idéal.</p>
                                 </div>
@@ -52,12 +52,12 @@ const SolutionSteps = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='flex-[1] block'>
+                        <div className='flex-[1] order-1'>
                             <img src="./images/image13.avif" alt="Recherche de prospects sur LinkedIn" className='max-w-full rounded-[16px] [box-shadow:0_10px_20px_black]'/>
                         </div>
                     </div>
                     
-                    <div className='[rotate:none] translate-x-0 translate-y-0 opacity-100 flex-col flex gap-[50px] items-center mb-[80px]'>
+                    <div className='[rotate:none]  opacity-100 flex gap-[50px] items-center mb-[80px] flex-col lg:flex-row lg:items-center space-y8 p-2'>
                         <div className='flex-[1] block'>
                             <span className='inline-block px-[12px] py-[4px] rounded-[8px] font-bold uppercase mb-[15px] bg-yellow-500 text-yellow-950 border-yellow-950 border-[2px] border-[solid]'>Étape 3</span>
                             <h3 className='text-[32px] text-left mb-[25px] uppercase leading-[1.2] text-yellow-950 font-bold'>Semez vos graines</h3>
@@ -81,8 +81,8 @@ const SolutionSteps = () => {
                         </div>
                     </div>
                      
-                    <div >
-                        <div >
+                    <div className='[rotate:none]  opacity-100 flex gap-[50px] items-center mb-[80px] flex-col lg:flex-row lg:items-center space-y8 p-2'>
+                        <div className='flex-1 order-2'>
                             <span className='inline-block px-[12px] py-[4px] rounded-[8px] font-bold uppercase mb-[15px] bg-yellow-500 text-yellow-950 border-yellow-950 border-[2px] border-[solid]'>Étape 4</span>
                             <h3 className='text-[32px] text-left mb-[25px] uppercase leading-[1.2] text-yellow-950 font-bold'>Récoltez vos ventes</h3>
                             <div className='flex items-start gap-[15px] text-left mt-[20px]'>
@@ -100,7 +100,7 @@ const SolutionSteps = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='flex-[1] block'>
+                        <div className='flex-1 order-1'>
                              <img src="./images/image19.avif" alt="Dashboard de résultats" className='max-w-full rounded-[16px] [box-shadow:0_10px_20px_black]'/>
                         </div>
                     </div>
