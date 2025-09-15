@@ -10,7 +10,7 @@ const Header = () => {
     </a>
         <div  className='flex space-x-6 gap-[20px] flex justify-between items-center max-w-[1200px] mx-[auto] my-[0] px-[20px] py-[0]'>
             <a href="#top" className='flex items-center no-underline gap-2 cursor-pointer text-red-500'>
-                <img src="src/assets/images/image7.avif" alt="Logo Sales Farmer" className='h-[40px] block cursor-pointer text-red-500 font-bold'/>
+                <img src="./images/image7.avif" alt="Logo Sales Farmer" className='h-[40px] block cursor-pointer text-red-500 font-bold'/>
                 <h3 className='m-0 text-[1.2rem] [color:inherit] leading-none text-left font-[var(--font-display)] uppercase block font-bold'>Sales <br/> Framer</h3>
             </a>
             <nav className='block'>

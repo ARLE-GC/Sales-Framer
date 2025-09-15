@@ -7,11 +7,11 @@ const Hero = () => {
         <div className='max-w-[1200px] mx-[auto] my-[0] px-[20px] py-[0] block'>
             <div className='[rotate:none] opacity-100 translate-x-0 translate-y-0 inline-flex justify-center items-center gap-[15px] bg-[white] border-[2px] border-[solid] border-[black] px-[15px] py-[8px] rounded-[50px] ml-[auto] mr-[auto] my-[0] [box-shadow:0_4px_0_black]'>
             <div className='flex'>
-                <img src="src/assets/images/image2.avif" alt="Avatar utilisateur 1" className='h-[35px] w-[35px] rounded-[50%] border-[2px] border-[solid] border-[white] -ml-[10px] max-w-[500px] object-cover flex-[1_1_400px]'/>
-                <img src="src/assets/images/image3.avif" alt="Avatar utilisateur 2" className='h-[35px] w-[35px] rounded-[50%] border-[2px] border-[solid] border-[white] -ml-[10px] max-w-[500px] object-cover flex-[1_1_400px]'/>
-                <img src="src/assets/images/image4.avif" alt="Avatar utilisateur 3" className='h-[35px] w-[35px] rounded-[50%] border-[2px] border-[solid] border-[white] -ml-[10px] max-w-[500px] object-cover flex-[1_1_400px]'/>
-                <img src="src/assets/images/image5.avif" alt="Avatar utilisateur 4" className='h-[35px] w-[35px] rounded-[50%] border-[2px] border-[solid] border-[white] -ml-[10px] max-w-[500px] object-cover flex-[1_1_400px]'/>
-                <img src="src/assets/images/image6.avif" alt="Avatar utilisateur 5" className='h-[35px] w-[35px] rounded-[50%] border-[2px] border-[solid] border-[white] -ml-[10px] max-w-[500px] object-cover flex-[1_1_400px]'/>
+                <img src="./images/image2.avif" alt="Avatar utilisateur 1" className='h-[35px] w-[35px] rounded-[50%] border-[2px] border-[solid] border-[white] -ml-[10px] max-w-[500px] object-cover flex-[1_1_400px]'/>
+                <img src="./images/image3.avif" alt="Avatar utilisateur 2" className='h-[35px] w-[35px] rounded-[50%] border-[2px] border-[solid] border-[white] -ml-[10px] max-w-[500px] object-cover flex-[1_1_400px]'/>
+                <img src="./images/image4.avif" alt="Avatar utilisateur 3" className='h-[35px] w-[35px] rounded-[50%] border-[2px] border-[solid] border-[white] -ml-[10px] max-w-[500px] object-cover flex-[1_1_400px]'/>
+                <img src="./images/image5.avif" alt="Avatar utilisateur 4" className='h-[35px] w-[35px] rounded-[50%] border-[2px] border-[solid] border-[white] -ml-[10px] max-w-[500px] object-cover flex-[1_1_400px]'/>
+                <img src="./images/image6.avif" alt="Avatar utilisateur 5" className='h-[35px] w-[35px] rounded-[50%] border-[2px] border-[solid] border-[white] -ml-[10px] max-w-[500px] object-cover flex-[1_1_400px]'/>
             </div>
             <span>⭐ +45 solopreneurs conquis</span>
             </div>
@@ -33,7 +33,7 @@ const Hero = () => {
             </div>
         </div>
 
-        <img src="src/assets/images/image1.avif" alt="Illustration prospection" className='w-full max-w-[500px] rounded-[2000px] object-cover flex-[1_1_400px]'/>
+        <img src="./images/image1.avif" alt="Illustration prospection" className='w-full max-w-[500px] rounded-[2000px] object-cover flex-[1_1_400px]'/>
         </section>
   );
 };

@@ -8,7 +8,7 @@ const About = () => {
                 <h2 className='text-[32px] mb-[20px] uppercase text-center leading-[1.2] text-yellow-950 block text-[1.5em] font-bold'>La prospection efficace <br/>ne devrait pas être un luxe</h2>
                 <p className='mb-[15px] block'>Dans un monde où tout va plus vite, les outils numériques sont devenus essentiels. Mais pourquoi devraient-ils être hors de prix ?</p>
                 <div className='flex items-center gap-8 max-w-[1000px] mx-[auto] my-[0] p-8 flex-wrap'>
-                    <img src="src/assets/images/image20.avif" alt="a-propos" className='w-[300px] h-auto rounded-[2000px] object-cover'/>
+                    <img src="./images/image20.avif" alt="a-propos" className='w-[300px] h-auto rounded-[2000px] object-cover'/>
                     
                     <div className='flex-[1] block'>
                         <p className='ml-[0] mr-[0] my-[0] block'>
