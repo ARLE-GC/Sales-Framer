@@ -32,7 +32,7 @@ const About = () => {
                         <p className='ml-[0] mr-[0] my-[0] block'> Notre mission ? Vous donner les moyens de cultiver votre business, sans tracas et sans budget démesuré. Rejoignez-nous et récoltons le succès ensemble ! 🚀</p>
                     </div>
                     </div>
-                 <div className='[rotate:none] opacity-100  mt-[40px] block animate__animated animate__fadeInUp'>
+                 <div className='[rotate:none] opacity-100  mt-[40px] block '>
                     <a href="#" className='text-[19px] px-[36px] py-[18px] text-[white] rounded-[12px] font-bold border-[3px] border-[solid] border-[white] [box-shadow:0_4px_10px_black] [transition:transform_0.2s,_box-shadow_0.2s] inline-block bg-red-500 no-underline cursor-pointer'>Prospecter gratuitement pendant 5 jours</a>
                     <div className='flex justify-center gap-[20px] mt-[15px] text-[14px]'>
                         <span>✔ Pas de CB requise</span>

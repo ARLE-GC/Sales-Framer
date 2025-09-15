@@ -7,7 +7,7 @@ const FAQ = () => {
             <div className='max-w-[800px] mx-[auto] my-[0] px-[20px] py-[0] block'>
                 <h2 className='text-[32px] mb-[20px] uppercase text-center leading-[1.2] text-yellow-950 font-bold block'>Vous avez des questions ?<br/>Nous avons les réponses.</h2>
                 
-                <div className='[rotate:none]  opacity-100 block animate__animated animate__fadeIn'>
+                <div className='[rotate:none]  opacity-100 block '>
                     <details className='border-[2px] border-[solid] border-yellow-950 rounded-[16px] mb-[15px] bg-yellow-200 block'>
                         <summary className='p-[20px] font-bold cursor-pointer flex justify-between items-center text-[18px] text-yellow-950 [content-increment:list-item_0] [list-style:inside_disclosure-closed]'>Qu'est-ce que Sales Farmer ? <p>+</p></summary>
                         <p className='pl-[20px] pr-[20px] py-[0] mb-[15px] block text-yellow-950'>Sales Farmer est conçu pour aider les professionnels à automatiser la prospection sur LinkedIn, à améliorer la génération de leads et à gagner du temps.</p>

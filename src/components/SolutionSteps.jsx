@@ -3,7 +3,7 @@ import React from 'react';
 
 const SolutionSteps = () => {
     return (
-         <section id="SolutionSteps" className='text-zinc-950 text-center px-[0] py-[60px] block m-0 p-0 box-border w-screen animate__animated animate__fadeIn'>
+         <section id="SolutionSteps" className='text-zinc-950 text-center px-[0] py-[60px] block m-0 p-0 box-border w-screen '>
             <div className='max-w-[1200px] mx-[auto] my-[0] px-[20px] py-[0] block'>
                 <h2 className='[rotate:none]  opacity-100 text-[32px] mb-[20px] uppercase text-center leading-[1.2] text-yellow-950 block font-bold'>Cultivez votre réseau sans effort, <br />récoltez des opportunités sans stress</h2> 
                   <p className='mb-[15px] block'>Avec Sales Farmer, pas de gadgets inutiles, juste l’essentiel pour transformer vos efforts en ventes.</p>           
